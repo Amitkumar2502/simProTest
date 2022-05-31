@@ -1,0 +1,12 @@
+{
+  
+    "baseUrl": "https://react.simprocloud.com/build",
+    "chromeWebSecurity": false,
+     "env": {
+      "AUTH_BASE_URL": "https://revvso.xyz",
+      "BACKEND_API_URL": "https://auth.revvso.xyz/api"
+    },
+  "defaultCommandTimeout": 10002,
+  "pageLoadTimeout": 10002
+  
+}

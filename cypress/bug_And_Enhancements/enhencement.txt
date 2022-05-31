@@ -1,0 +1,5 @@
+1. These are required symbol(*) present on required fields.
+2. Choose Book drop down height and width are not same to remaining fields.
+3. Discount checkbox alignment is not correct.
+4. When Transaction record table is empty,we can should show placeholder "no record are available".
+5. Choose a book width 
