@@ -1,0 +1,8 @@
+1. We should provide symbol(*) for all required fields.
+
+2. Choose Book drop down field size should be aligned with other fields size.
+
+3. Discount checkbox alignment should be proper with it's title
+
+4. Placeholder "no record are available" should be displaced when Transaction record table is empty,
+
