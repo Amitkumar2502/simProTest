@@ -4,6 +4,5 @@ export const DRAMA_BOOK_DETAIL = {
    UNITS:1,
    PRICE_PER_UNIT:125,
    APPLY_DISCOUNT:true,
-   DISCOUNT:10 ,
-   IS_VALID_ORDER:true
+   DISCOUNT:10 
  }

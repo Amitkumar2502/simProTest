@@ -15,7 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import './orderbooks_methods'
+import './order_books_methods'
 
 
 // Alternatively you can use CommonJS syntax:

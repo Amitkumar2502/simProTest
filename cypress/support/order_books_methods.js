@@ -2,7 +2,7 @@ import {ORDER_BOOK_PAGE} from "../pages/order_books_page"
 
 
 
-//
+//custom method to order book
 Cypress.Commands.add('place_order',(ORDER_DETAILS)=>{
   
   // default checkbox should be checked 
@@ -70,7 +70,7 @@ cy.get(ORDER_BOOK_PAGE.SUBMIT_BUTTON)
 
 
 
-
+//custom method for verify transaction table 
 Cypress.Commands.add('verify_transaction_table',(TRANSACTION_RECORD_TABLE)=>{
   
   //verify transaction table column name

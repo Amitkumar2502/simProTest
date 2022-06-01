@@ -16,16 +16,16 @@ describe('ORDER DRAMA BOOK AND VERIFY TRANSACTION TABLE',()=>{
     cy.viewport('macbook-13')
   
   })
-  it('Place drama book order and verify transaction record',()=>{
+  it('PLACE DRAMA BOOK ORDER AND VERIFY TRANSACTION RECORD',()=>{
     
-    cy.order(DRAMA_BOOK_DETAIL);
+    cy.place_order(DRAMA_BOOK_DETAIL);
     
     let table =  get_transaction_table(DRAMA_BOOK_DETAIL)
-       cy.verifyTable(table)
+       cy.verify_transaction_table(table)
     
   })
 
-  after('delete the record after testing',() =>{
+  after('DELETE ORDER AND VERIFY BACK',() =>{
       cy.get(ORDER_BOOK_PAGE.DELETE_TRANSACTION_RECORD_TABLE_ROW_BUTTON)
         .should('exist')
         .click()

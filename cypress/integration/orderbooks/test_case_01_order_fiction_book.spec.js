@@ -18,15 +18,15 @@ describe('ORDER BOOK AND VERIFY ALL REQUIRED FIELDS AND TRANSACTION TABLE',()=>{
    
   
   })
-  ORDER_BOOK_DETAILS.forEach((order)=>{
-    it(`${order.TEST_NAME}`,()=>{
+  ORDER_BOOK_DETAILS.forEach((ORDER)=>{
+    it(`${ORDER.TEST_NAME}`,()=>{
       
       //place book order using custom method
-      cy.place_order(order);
+      cy.place_order(ORDER);
 
-      if(order.IS_VALID_ORDER){
+      if(ORDER.IS_VALID_ORDER){
        //get transaction table 
-        let table =  get_transaction_table(order)
+        let table =  get_transaction_table(ORDER)
         
         //verify transaction table 
        cy.verify_transaction_table(table)
