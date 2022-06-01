@@ -104,7 +104,7 @@ export const ORDER_BOOK_DETAILS = [
 {
   BOOK_TYPE:'Fiction',
   BOOK_NAME:'Harry Potter',
-  UNITS:1,
+  UNITS:50,
   PRICE_PER_UNIT:35.80,
   APPLY_DISCOUNT:false,
   DISCOUNT:0 ,
