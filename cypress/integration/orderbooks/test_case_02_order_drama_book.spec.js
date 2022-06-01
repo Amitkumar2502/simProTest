@@ -25,7 +25,7 @@ describe('ORDER DRAMA BOOK AND VERIFY TRANSACTION TABLE',()=>{
     
   })
 
-  after('DELETE ORDER AND VERIFY BACK',() =>{
+  after('DELETE ORDER AND VERIFY DELETED ITEMS',() =>{
       cy.get(ORDER_BOOK_PAGE.DELETE_TRANSACTION_RECORD_TABLE_ROW_BUTTON)
         .should('exist')
         .click()

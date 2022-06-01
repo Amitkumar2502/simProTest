@@ -49,10 +49,19 @@
                      g)check transaction table
        Expected result-> Discount value should not accepting more than 100% values.
 
-
+6.Discount value is not accepting 0 values.
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)choose a valid book option
+                     c)Enter valid unit number
+                     d)Enter valid price 
+                     e)click on discount checkbox
+                     f)enter 0 values on discount and submit 
+                     g)check the error message
+       Expected result-> Discount value should accept 0 values.
 
                                  
-4.Delete Column name is missing in Transaction record table
+7.Delete Column name is missing in Transaction record table
    Steps to reproduce: 
                      a)Navigate to order books page
                      b)Choose valid book option
@@ -63,11 +72,11 @@
                      g)Transaction record table last column name is blank
       Expected result->Meaning full column name should be present
 
-5.Select book text is not aligned properly with drop down.
+8.Select book text is not aligned properly with drop down.
     
     Expected result->Select book text should be aligned properly with drop down
 
-6.Transaction record getting created without values 
+9.Transaction record getting created without values 
 
    Steps to reproduce: 
                      a)Navigate to order books page
@@ -82,6 +91,6 @@
          Expected result-> After submit all fields data should be cleared
 
 
-7.Transaction Order page title fonts style is not consistent
+10.Transaction Order page title fonts style is not consistent
         Expected result-> fonts style should be consistent in whole app
 
