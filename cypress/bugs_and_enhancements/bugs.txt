@@ -1,0 +1,96 @@
+1. Transaction order is getting created even without choosing the book.
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)Enter valid unit number
+                     c)Enter valid price value
+                     d)Click on submit button 
+                     e)Check on Transaction record
+    
+    Expected result-> Without choosing a book,Transaction order should not be placed.
+
+
+2.Units input fields is accepting decimals values.
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)choose a valid book option
+                     c)Enter in units some decimals number( eg- 2.5)
+                     d)Enter valid price value
+                     e)click on submit button and check in Transaction table
+                     f)Units will be 2.5(It should not accept in decimals)
+      Expected result-> Units field should not accept decimals values
+
+3.Price value accepting 0 as values.
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)choose a valid book option
+                     c)Enter valid unit number
+                     d)Enter price 0
+                     e)Check error message
+       Expected result-> Price field should not accept 0 values    
+
+
+4.Price value is not accepting decimals values.
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)choose a valid book option
+                     c)Enter valid unit number
+                     d)Enter price value in decimals (eg- 2.5)
+                     e)Check error message
+       Expected result-> Price field should accept decimals values
+
+5.Discount value is accepting more than 100% values.
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)choose a valid book option
+                     c)Enter valid unit number
+                     d)Enter valid price 
+                     e)click on discount checkbox
+                     f)enter 120% values on discount and submit 
+                     g)check transaction table
+       Expected result-> Discount value should not accepting more than 100% values.
+
+6.Discount value is not accepting 0 values.
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)choose a valid book option
+                     c)Enter valid unit number
+                     d)Enter valid price 
+                     e)click on discount checkbox
+                     f)enter 0 values on discount and submit 
+                     g)check the error message
+       Expected result-> Discount value should accept 0 values.
+
+                                 
+7.Delete Column name is missing in Transaction record table
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)Choose valid book option
+                     c)Enter valid unit number
+                     d)Enter valid price value
+                     e)Click on submit button 
+                     f)Check on Transaction record
+                     g)Transaction record table last column name is blank
+      Expected result->Meaning full column name should be present
+
+8.Select book text is not aligned properly with drop down.
+    
+    Expected result->Select book text should be aligned properly with drop down
+
+9.Transaction record getting created without values 
+
+   Steps to reproduce: 
+                     a)Navigate to order books page
+                     b)Choose valid book option
+                     c)Enter valid unit number
+                     d)Enter valid price value
+                     e)Click on submit button 
+                     f)Check on Transaction record
+                     g)delete the record 
+                     h)click on submit button again
+                     i)check Transaction record table 1 row is created for all the fields with value 0.                                       
+         Expected result-> After submit all fields data should be cleared
+
+
+10.Transaction Order page title fonts style is not consistent
+        Expected result-> fonts style should be consistent in whole app
+
